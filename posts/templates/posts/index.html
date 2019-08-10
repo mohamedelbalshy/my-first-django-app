@@ -1,0 +1,9 @@
+<h1>Hello World!</h1>
+<h3>{{title}}</h3>
+<h4>{{ request.user }}</h4>
+<ul>
+  {% for post in posts %}
+    <li>{{post.title}} {{post.id}}</li>
+
+  {% endfor %}
+</ul>
